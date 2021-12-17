@@ -1,17 +1,19 @@
 .liste {
     list-style-type: none;
-    background: black;
+    background: lightblue;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 50px;
+    height: 40px;
 }
 
 .items {
+    padding: 15px;
     font-size: large;
+    font-weight: 800;
     margin-right: 10px;
-    color: aliceblue;
+    color: lightcoral;
     cursor: pointer;
 }

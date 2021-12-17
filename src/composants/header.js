@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom';
 
 function Header(){
     return(
-    <div className='header'>
+    <div className='liste'>
         <div>
-            <Link className="link" to="/">Data Pokemon</Link>
-            <Link className="link" to="/Api">Api</Link>
+            <Link className="items" to="/">Data Pokemon</Link>
+            <Link className="items" to="/Api">Api</Link>
             </div>
             </div>
             )

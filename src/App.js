@@ -2,7 +2,7 @@ import React from 'react';
 import DataPokemon from './composants/DataPokemon';
 import Api from './composants/Api';
 import Header from './composants/header';
-import "./styles/Navbar.css";
+import "./styles/Header.css";
 
 import { BrowserRouter, Route, Routes} from "react-router-dom";
 
@@ -11,9 +11,9 @@ const App = () => {
             <div className='application'>
             <BrowserRouter>
             <Header/>
-                <Routes className='liste'>
+                <Routes>
                     <Route path="/Home" element={<DataPokemon/>}/>
-                    <Route path="/Api" element={<Api/>}/>
+                    <Route path="/Api" element={<createPokemonObject/>}/>
                     <Route exact path="/" element={<DataPokemon/>}/>
                 </Routes>
         </BrowserRouter>
