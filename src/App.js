@@ -13,7 +13,7 @@ const App = () => {
             <Header/>
                 <Routes>
                     <Route path="/Home" element={<DataPokemon/>}/>
-                    <Route path="/Api" element={<createPokemonObject/>}/>
+                    <Route path="/Api" element={<Api/>}/>
                     <Route exact path="/" element={<DataPokemon/>}/>
                 </Routes>
         </BrowserRouter>
