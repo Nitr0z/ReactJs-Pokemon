@@ -1,6 +1,6 @@
 import React from 'react'
 
-const DataApi = ({id, image, name, type, _callback }) => {
+const DataApi = ({id, image, name, type}) => {
     const style = type + " pokemon";
     return (
         <div className={style}>

@@ -31,7 +31,7 @@ const Api = () => {
     <div>
       <div className="poke-container">
         <div className="container">
-          {allPokemons.map( (pokemonStats, index) => 
+          {allPokemons.map( (pokemonStats) => 
             <DataApi
               id={pokemonStats.id}
               image={'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/' + pokemonStats.id + '.svg' }
