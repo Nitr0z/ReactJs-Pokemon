@@ -51,3 +51,8 @@ body {
     font-size: 2pc;
     margin-bottom: 20px;
 }
+
+.pokemon .image {
+    height: 200px;
+    width: 200px;
+}

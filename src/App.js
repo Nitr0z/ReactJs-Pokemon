@@ -27,12 +27,6 @@ const App = () => {
         setAllPokemons(pokemons);
     }, []);
 
-    function deleteRow(id) {
-        console.log(id);
-        const newList = allPokemons.filter((item) => item.id !== id);
-        setAllPokemons(newList);
-    }
-
     return ( < div className = "application" >
 
 
