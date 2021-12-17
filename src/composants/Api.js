@@ -34,7 +34,7 @@ const Api = () => {
           {allPokemons.map( (pokemonStats, index) => 
             <DataApi
               id={pokemonStats.id}
-              image={pokemonStats.sprites.other.dream_world.front_default}
+              image={'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/' + pokemonStats.id + '.svg' }
               name={pokemonStats.name}
               type={pokemonStats.types[0].type.name}
             />)}
