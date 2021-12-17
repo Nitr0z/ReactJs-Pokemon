@@ -33,14 +33,12 @@ const Api = () => {
         <div className="container">
           {allPokemons.map( (pokemonStats, index) => 
             <DataApi
-              key={index}
               id={pokemonStats.id}
               image={pokemonStats.sprites.other.dream_world.front_default}
               name={pokemonStats.name}
               type={pokemonStats.types[0].type.name}
             />)}
         </div>
-          <button className='button' onClick={() => getAllPokemons()}>Voir Plus</button>
       </div>
     </div>
   );
