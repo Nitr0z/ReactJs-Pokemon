@@ -42,7 +42,7 @@ const Api = () => {
             />)}
           
         </div>
-          <button onClick={() => getAllPokemons()}>Voir Plus</button>
+          <button className='button' onClick={() => getAllPokemons()}>Voir Plus</button>
       </div>
     </div>
   );
