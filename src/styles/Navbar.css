@@ -1,0 +1,17 @@
+.liste {
+    list-style-type: none;
+    background: black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 50px;
+}
+
+.items {
+    font-size: large;
+    margin-right: 10px;
+    color: aliceblue;
+    cursor: pointer;
+}
